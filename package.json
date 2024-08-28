@@ -39,7 +39,6 @@
     "check-exports": "attw --pack .",
     "local-release": "npm run ci && changeset version && changeset publish",
     "prepublishOnly": "npm run ci"
-
   },
   "main": "dist/index.js",
   "exports": {
